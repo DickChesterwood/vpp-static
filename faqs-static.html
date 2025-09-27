@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head profile="http://gmpg.org/xfn/11">
+		<!-- Bootstrap -->
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<!-- additional jquery libraries -->
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js" crossorigin="anonymous"></script>	
+	
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>	
+
+		<link rel="stylesheet" href="./static-files.css"/>
+	    
+	<!-- meta -->
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+	
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" media="screen,projection,tv" href="/css/ie.css" />	
+
+		<script type="text/javascript" src="/assets/DD_belatedPNG_0.0.8a-min.js" ></script>
+		<script> DD_belatedPNG.fix('body, div, a, img, span, ul');</script>
+	<![endif]-->
+
+	
+		<script type="text/javascript">
+
+			$(document).ready(function() 
+			  {
+			  	$(".msgbox").hide();
+			    $(".msgbox").fadeIn(1500);
+			  });
+		
+</script>
+
+	
+	
+		
+
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-16158342-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+
+	<!--news highlight -->
+	<script>
+		$(document).ready(function() 
+		{
+			$('a:contains("News-New1")').html('News <sup><span class="badge badge-warning">1</span></sup>');
+			$('a:contains("News-New2")').html('News <sup><span class="badge badge-warning">2</span></sup>');
+			$('a:contains("News-New3")').html('News <sup><span class="badge badge-warning">3</span></sup>');
+			$('a:contains("News-NewPlus")').html('News <sup><span class="badge badge-warning">4+</span></sup>');
+    	});
+	</script>
+
+	<script>
+		$(document).ready(function () {
+		var result;
+		$.ajax({
+	  		url: "/promoRest/getPromo",
+    		method: "GET",
+    		headers: { "Accept": "application/json;odata=verbose" },
+    		success: function (data) {
+    			var jsondata = JSON.stringify(data);
+    			$('#promo1').replaceWith(JSON.parse(jsondata).html);
+        	}
+    	})
+	});
+	</script> 
+	    
+	<meta name="Description" content="Frequently asked questions about the VirtualPairProgrammers closure."/>
+	
+<meta name="layout" content="siteLayout2021"/>	
+
+<!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
+
+
+	    <title>Frequently Asked Questions - VirtualPairProgrammers</title>
+	</head>
+	
+	<body>
+		<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9PMZG"
+height="21" width="21" class ="noDisplay"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9PMZG');</script>
+<!-- End Google Tag Manager -->
+ 
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <img id="logo" src="./LogoWhite.svg" 
+          alt="Virtual Pair Programmers - Let the Course Come to You"
+          height="60"/>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+   
+    
+    <div class="flex-column">
+      <div class="flex-row">
+      </div>
+
+      <div clas="flex-row">
+        <div class="float-left pt-2">
+          
+        </div>
+        <div class="w-100 text-right pt-2">
+          <a class="" name="facebook" href="https://www.facebook.com/VPPJavaTraining" target="_blank">
+            <i class="fa fa-facebook-square fa-lg text-light"></i>
+          </a>
+        
+          <a class="" href="https://twitter.com/VirtualPairProg" target="_blank">
+            <i class="fa fa-twitter-square fa-lg text-light"></i>
+          </a>
+        
+          <a class="" href="https://www.youtube.com/user/VPPChesterwood" target="_blank">
+            <i class="fa fa-youtube-square fa-lg text-light"></i>
+          </a>
+        
+          <a class="" href="https://www.linkedin.com/company/1207707/" target="_blank">
+            <i class="fa fa-linkedin-square fa-lg text-light"></i>
+          </a>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</nav>
+		
+
+		<script>
+$(document).ready(function () {
+    $('.alert').addClass('show');
+    });
+</script>
+
+
+
+		
+
+
+		
+	
+	<div class="container-fluid">
+		<section class="py-2 my-4 text-center">
+		<div class="row bg-light">
+		  <div class="col-lg-6 col-md-8 mx-auto">
+		    <h1>VirtualPairProgrammers has Closed - Frequently Asked Questions</h1>
+		  </div>
+		</div>
+		</section> 
+		
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<div class="alert-success p-2">
+					<h2>The site will be closing on 26 September 2025.</h2>
+				</div>
+			</div>
+			<div class="col-12 col-md-8">
+				<h3>I have an active subscription with months to run, what happens?</h3>
+				<p>Firstly, we're very sorry for this inconvenience. We contacted all subscribers with details of how to access their courses, but with the vagaries of email, our message may have not reached you. <a href="https://www.linkedin.com/in/richard-chesterwood-6354a619/">Please contact Richard Chesterwood at his LinkedIn page and he will try to help</a>.</p>
+				<p></p>
+				<h3>Will there be more courses at another platform in the future?</h3>
+				<p>It is possible that more courses might be released from one or both of us in future, but we can't promise this.</p>
+				<h3>Will the courses stay on Udemy?</h3>
+				<p><strong>YES</strong>. The K8s and Istio courses are still maintained and supported. A new edition of each is quietly created every year, and this will continue for the foreseeable future.</p>
+				<h3> I was planning to subscribe for access to archive material — is all that content lost?</h3>
+				<p>Although there is a lot of value in the archive, we feel that with a lack of updates, the material is to old to realistically offer for sale.</p>
+
+			</div>
+		</div>		
+	
+		</div>
+
+
+
+		
+		<div class="bg-dark mt-3">
+	<div class="container-fluid pt-3">
+		<div class="row mx-auto">
+			
+			<div class="col-1">
+			</div>
+			<div class="col-md-auto">
+	
+			</div>
+			<div class="col-1">
+			</div>
+			<div class="col-md-auto">
+	
+			</div>
+		</div>
+	</div>
+
+	<div class="p-3 text-light bg-black" >
+		<div class="text-center">Copyright  &copy;2025 VirtualPairProgrammers.com</div>
+	</div>
+</div>
+
+<!-- linked in -->
+<script type="text/javascript">
+_linkedin_partner_id = "4476113";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4476113&fmt=gif" />
+</noscript>
+
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 835991109;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/835991109/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+	</body>
+</html>
